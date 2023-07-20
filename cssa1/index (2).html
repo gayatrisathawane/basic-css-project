@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignmentcss</title>
+    <style>
+        .cover{
+            height: 300px;
+            border-radius: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .div2{
+            display: inline-flex;
+            
+        }
+        
+        .card{
+           height: 300px;
+           width: 220px;
+            margin: 10px;
+            border: 10px;
+            border: 3px solid black;
+            padding: 10px;
+            border-radius: 10px;
+            border:5px double black;
+            background-color: #ffffff;
+            
+        }
+        .card:hover{
+            box-shadow: 5px 5px 5px rgb(174, 174, 174);
+            border-radius:8px ;
+            border: 4px dashed rgb(147, 146, 146);
+        }
+
+        #m1{
+            color: rgb(7, 113, 7);
+        }
+
+        #e{
+            color: black;
+        }
+
+        #R{
+            color: rgb(48, 180, 240);
+        }
+
+        #no{
+            color: rgb(12, 156, 19);
+        }
+        .fontw{
+            font-weight:900;
+        }
+        p{
+           font-weight:500;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">WHAT IS <span style="color: rgb(34, 131, 34);">M</span><span style="color: rgb(12, 12, 12);">E</span><span style="color: rgb(36, 202, 227);">R</span><span style="color: rgb(79, 243, 79);">N</span> ? </h1>
+    <img src="merncover.jpg" class="cover">
+    <div class="div2">
+        <div class="card ">
+            <h3 id="m1" class="fontw">MongoDB</h3>
+            <p>
+            
+            MongoDB stores data in flexible, JSON-like documents, meaning fields can vary from document to document and data structure can be changed over time.
+            MongoDB is a document database. It stores data in a type of JSON format called BSON.
+            If you are unfamiliar with JSON
+            </p>
+        </div>
+        <div class="card">
+            <h3 id="e" class="fontw">ExpressJS</h3>
+            <p>
+            
+            Express is a fast, assertive, essential and moderate web framework of Node.js. You can assume express as a layer built on the top of the Node.js that helps manage a server and routes. It provides a robust set of features to develop web and mobile applications.
+            
+            </p>
+        </div>
+        <div class="card">
+            <h3 id="R" class="fontw">React</h3>
+            <p>
+            
+            ReactJS is an open-source JavaScript library that is used for building user interfaces in a declarative and efficient way. It is a component-based front-end library responsible only for the view layer of an MVC (Model View Controller) architecture. React is used to create modular user interfaces and it promotes the development of reusable UI components that display dynamic data
+            </p>
+        </div>
+        <div class="card">
+            <h3 id="no" class="fontw">NodeJs</h3>
+            <p>
+            
+            ReactJS is an open-source JavaScript library that is used for building user interfaces in a declarative and efficient way. It is a component-based front-end library responsible only for the view layer of an MVC (Model View Controller) architecture. React is used to create modular user interfaces and it promotes the development of reusable UI components that display dynamic data
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
